@@ -23,5 +23,5 @@ def dectobasex(base,dec):
    print (number)
 #######################################
 basextodec(2,10000)
-dectobasex(3,32)
+dectobasex(3,50)
 dectobasex(2.718,154000)

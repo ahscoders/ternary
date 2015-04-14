@@ -22,6 +22,6 @@ def dectobasex(base,dec):
       number = app +" "+ number
    print (number)
 #######################################
-basextodec(2,10000)
+basextodec(2,10)
 dectobasex(3,50)
 dectobasex(2.718,154000)

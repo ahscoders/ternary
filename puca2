@@ -20,7 +20,7 @@ authentication_url = 'https://pucatrade.com/login'
 # Input parameters we are going to send
 payload = {
   'login': 'rage1clan@hotmail.com',
-  'password': 'NG246-129'
+  'password': 'password'
   }
 
 # Use urllib to encode the payload

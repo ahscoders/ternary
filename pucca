@@ -1,0 +1,11 @@
+from bs4 import BeautifulSoup
+import urllib
+url="http://www.utexas.edu/world/univ/alpha/"
+page = urllib.urlopen(url)
+soup = BeautifulSoup(page.read())
+universities=soup.find_all('a',class_='institution')
+for university in universities:
+    un = ("U"+university.string)
+    if un == 'UUniversity of Maine School of Law':
+        print 'flooded strand'
+        break
